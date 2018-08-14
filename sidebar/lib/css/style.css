@@ -2,20 +2,30 @@
 body{
     margin:0;
 }
-/* END OF PREMADE */
+/* END OF PREMADE test */
 
 .main_container{
-
+display: flex;
+height: 100vh;
 }
 
 .sidebar{
-
+width:30%;
+flex-shrink:0;
+background-image:url('../../assets/crash.jpg');
+background-position-x:50%;
+text-align: center;
+color: white;
+padding-top: 315px;
 }
 
 .sidebar img{
+width: 75px;
 
 }
 
 .scrolling_content{
-
+padding:26px;
+text-align: center;
+overflow-y: scroll;
 }
